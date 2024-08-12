@@ -10,6 +10,7 @@
     },
     "devDependencies": {
         "@repo/tsup": "workspace:*",
+        "@repo/vite": "workspace:*",
         "@repo/typescript": "workspace:*",
         "tsx": "^4.17.0"
     }
