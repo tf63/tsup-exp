@@ -2,7 +2,7 @@
     "name": "@tf63/sample-package-vite",
     "type": "module",
     "version": "0.0.0",
-    "private": true,
+    "private": false,
     "license": "MIT",
     "scripts": {
         "dev": "vite build --watch",
