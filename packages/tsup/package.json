@@ -1,5 +1,5 @@
 {
-    "name": "@repo/tsup",
+    "name": "@tf63/sample-package-tsup",
     "type": "module",
     "version": "0.0.0",
     "private": true,

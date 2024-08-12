@@ -9,8 +9,8 @@
         "watch": "tsx watch src/index.ts"
     },
     "devDependencies": {
-        "@repo/tsup": "workspace:*",
-        "@repo/vite": "workspace:*",
+        "@tf63/sample-package-tsup": "workspace:*",
+        "@tf63/sample-package-vite": "workspace:*",
         "@repo/typescript": "workspace:*",
         "tsx": "^4.17.0"
     }

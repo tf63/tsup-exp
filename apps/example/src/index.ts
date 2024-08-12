@@ -1,5 +1,5 @@
-import { foo as foo_tsup } from '@repo/tsup'
-import { foo as foo_vite } from '@repo/vite'
+import { foo as foo_tsup } from '@tf63/sample-package-tsup'
+import { foo as foo_vite } from '@tf63/sample-package-vite'
 
 const main = () => {
     // biome-ignore lint/suspicious/noConsoleLog: <explanation>

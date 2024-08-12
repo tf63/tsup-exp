@@ -1,5 +1,5 @@
 {
-    "name": "@repo/vite",
+    "name": "@tf63/sample-package-vite",
     "type": "module",
     "version": "0.0.0",
     "private": true,

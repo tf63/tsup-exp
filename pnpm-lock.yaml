@@ -98,13 +98,13 @@ importers:
 
   apps/example:
     devDependencies:
-      '@repo/tsup':
-        specifier: workspace:*
-        version: link:../../packages/tsup
       '@repo/typescript':
         specifier: workspace:*
         version: link:../../packages/typescript
-      '@repo/vite':
+      '@tf63/sample-package-tsup':
+        specifier: workspace:*
+        version: link:../../packages/tsup
+      '@tf63/sample-package-vite':
         specifier: workspace:*
         version: link:../../packages/vite
       tsx:
