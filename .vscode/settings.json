@@ -1,0 +1,12 @@
+{
+    "editor.tabSize": 4,
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.codeActionsOnSave": {
+        "quickfix.biome": "explicit",
+        "source.addMissingImports": "explicit"
+    },
+    "eslint.enable": false,
+    "files.insertFinalNewline": true,
+    "typescript.preferences.importModuleSpecifier": "non-relative"
+}
