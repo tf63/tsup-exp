@@ -13,6 +13,17 @@
         "dist",
         "package.json"
     ],
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/tf63/tsup-exp",
+        "directory": "packages/vite"
+    },
+    "bugs": {
+        "url": "https://github.com/tf63/tsup-exp/issues"
+    },
+    "publishConfig": {
+        "access": "public"
+    },
     "exports": {
         ".": {
             "require": "./dist/index.js",
