@@ -1,7 +1,8 @@
-const path = require('path')
+import path from 'node:path'
 
-module.exports = (plop) => {
+export default (plop) => {
     plop.setHelper('extractFilename', (filePath) => path.basename(filePath))
+
     plop.setGenerator('component', {
         description: 'Create a new component',
         prompts: [
@@ -9,8 +10,6 @@ module.exports = (plop) => {
                 type: 'list',
                 name: 'repo',
                 message: 'Please select the repository name',
-
-                // Add the path to the apps to the options according to the project
                 choices: ['packages/ui/src/components']
             },
             {

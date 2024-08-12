@@ -1,0 +1,16 @@
+{
+    "name": "@repo/example",
+    "type": "module",
+    "version": "0.0.0",
+    "private": true,
+    "license": "MIT",
+    "scripts": {
+        "start": "tsx src/index.ts",
+        "watch": "tsx watch src/index.ts"
+    },
+    "devDependencies": {
+        "@repo/tsup": "workspace:*",
+        "@repo/typescript": "workspace:*",
+        "tsx": "^4.17.0"
+    }
+}

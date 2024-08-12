@@ -1,0 +1,30 @@
+{
+    "name": "@repo/tsup",
+    "type": "module",
+    "version": "0.0.0",
+    "private": true,
+    "license": "MIT",
+    "scripts": {
+        "dev": "pnpm build:fast -- --watch",
+        "build": "tsup src --dts",
+        "build:fast": "tsup src"
+    },
+    "files": [
+        "dist",
+        "package.json"
+    ],
+    "exports": {
+        ".": {
+            "require": "./dist/index.js",
+            "import": "./dist/index.mjs",
+            "types": "./dist/index.d.ts"
+        }
+    },
+    "main": "./dist/index.js",
+    "module": "./dist/index.mjs",
+    "types": "./dist/index.d.ts",
+    "devDependencies": {
+        "@repo/typescript": "workspace:*",
+        "tsup": "^8.2.4"
+    }
+}
